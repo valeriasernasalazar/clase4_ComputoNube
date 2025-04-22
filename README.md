@@ -31,6 +31,14 @@ Mueve el archivo `uri.json` (localizado en el comentario de Canvas) al directori
 mv /ruta/al/uri.json .
 ```
 
+### 3. Para descargar la base de datos como csv
+
+Corre el archivo `querysql.ipynb`, revisando haber descargo el config2.json de los archivos de canvas y moverlo al destino con 
+
+```bash
+mv /ruta/al/config2.json .
+```
+
 ### 3. Limpieza y creación del modelo
 
 Para preparar y entrenar el modelo, ejecuta el notebook:
@@ -85,6 +93,8 @@ clase4_ComputoNube/
 ├── deployer.ipynb         # Notebook para despliegue del modelo
 ├── score.py               # Script de puntuación generado por deployer.ipynb
 ├── uri.json               # Archivo de configuración con credenciales (añadir manualmente)
+├── config.json            # Archivo de configuración con credenciales (añadir manualmente)
+├── config2.json           # Archivo de configuración con credenciales (añadir manualmente)
 └── README.md              # Documentación básica
 ```
 
