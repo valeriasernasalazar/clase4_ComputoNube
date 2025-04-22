@@ -54,6 +54,12 @@ jupyter notebook deployer.ipynb
 ```
 
 Este notebook utiliza el ID proporcionado en el archivo JSON para configurar el entorno de despliegue. El proceso incluye:
+- Descargar el config.json y moverlo al cd utilizando
+
+```bash
+mv /ruta/al/config.json .
+```
+
 - Creación de un workspace en Azure ML
 - Registro del modelo en la nube
 - Despliegue del modelo como un servicio web
